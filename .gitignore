@@ -1,4 +1,50 @@
+# Ignore entire datasets folder
 datasets/
+
+# Ignore specific dataset folders (extra safety)
+datasets/Audio_Dataset/
+datasets/disease_dataset/
+datasets/posture_dataset/
+
+# Ignore model files
 *.pt
+*.h5
+*.pth
+*.onnx
+
+# Ignore videos
 *.mp4
+*.avi
+*.mov
+*.mkv
+
+# Ignore zipped files
 *.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# Ignore virtual environments
+venv/
+env/
+henpose/
+.venv/
+
+# Ignore YOLO training outputs
+runs/
+weights/
+logs/
+
+# Ignore cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS/system files
+.DS_Store
+Thumbs.db
